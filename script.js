@@ -41,7 +41,7 @@ function showFloatingPictures() {
         {bottom: '30%', left: '30%'}, {bottom: '30%', right: '30%'},
         {top: '40%', left: '14%'}, {top: '40%', right: '14%'}, 
         {top: '16%', left: '30%'}, {top: '16%', right: '30%'}, 
-        {bottom: '15%', left: '50%', transform: 'translateX(-50%)'}
+        {bottom: '10%', left: '50%', transform: 'translateX(-50%)'}
     ];
 
     imagePaths.forEach((path, index) => {
@@ -75,3 +75,4 @@ yesBtn.addEventListener('click', () => {
         origin: { y: 0.6 }
     });
 });
+
