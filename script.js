@@ -37,10 +37,10 @@ noBtn.addEventListener('touchstart', (e) => { e.preventDefault(); moveNoButton()
 
 function showFloatingPictures() {
     const positions = [
-        {top: '15%', left: '18%'}, {top: '15%', right: '18%'}, 
+        {top: '15%', left: '12%'}, {top: '15%', right: '12%'}, 
         {bottom: '30%', left: '30%'}, {bottom: '30%', right: '30%'},
-        {top: '40%', left: '7%'}, {top: '40%', right: '7%'}, 
-        {top: '16%', left: '35%'}, {top: '16%', right: '35%'}, 
+        {top: '40%', left: '2%'}, {top: '40%', right: '2%'}, 
+        {top: '16%', left: '30%'}, {top: '16%', right: '30%'}, 
         {bottom: '15%', left: '50%', transform: 'translateX(-50%)'}
     ];
 
@@ -76,4 +76,5 @@ yesBtn.addEventListener('click', () => {
     });
 
 });
+
 
